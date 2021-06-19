@@ -1,0 +1,80 @@
+@media screen and (min-width: 990px) {
+  .container {
+    max-width: 800px;
+    margin: 7rem;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .container {
+    width: auto;
+    margin: 2vw;
+    margin-top: 2.5vh;
+  }
+}
+
+a, a:hover {
+  font-weight: bold;
+  color: inherit;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 2.5rem !important;
+}
+
+body p {
+  font-size: 1.2rem;
+  line-height: 2em;
+}
+
+section {
+  margin-bottom: 7rem;
+}
+
+#intro h3, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#projects h2 {
+  font-weight: bolder;
+}
+
+#projects > div {
+  min-height: 130px;
+  color: white;
+  position: relative;
+}
+
+#projects div:first-child{
+  background-color: #2f3e46;
+}
+
+#projects div:nth-child(2){
+  background-color: #354f52;
+}
+
+#projects div:nth-child(3){
+  background-color: #52796f;
+}
+
+#projects div:nth-child(4){
+  background-color: #84a98c;
+}
+
+#projects div:nth-child(5){
+  background-color: #cad2c5;
+}
+
+.hyperspan {
+  z-index: 2;
+  position: absolute;
+  border-radius: 3px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
